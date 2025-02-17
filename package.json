@@ -8,9 +8,9 @@
   },
   "scripts": {
     "dist": "tsup src",
-    "start:dev": "tsx src/app.ts",
-    "start:watch": "tsx watch src/app.ts",
-    "start:dist": "npm run dist && node src/app.js"
+    "start:dev": "tsx src/main.ts",
+    "start:watch": "tsx watch src/main.ts",
+    "start:dist": "npm run dist && node src/main.js"
   },
   "keywords": [],
   "author": "",
